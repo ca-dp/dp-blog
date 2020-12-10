@@ -1,7 +1,5 @@
 # Team Blog Hub
 
-https://team-blog-hub.vercel.app
-
 ## Development
 ```bash
 $ yarn install
