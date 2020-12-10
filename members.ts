@@ -66,7 +66,7 @@ export const members: Member[] = [
     ],
     includeUrlRegex: "nakabonne.dev",
     twitterUsername: "nakabonne",
-    githubUsername: "nghialv",
+    githubUsername: "nakabonne",
     websiteUrl: "https://nakabonne.dev/",
   },
 ];
