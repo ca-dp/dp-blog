@@ -8,6 +8,8 @@ on:
   push:
     branches:
       - 'master'
+  schedule:
+    - cron:  '0 10 * * *'
 
 jobs:
   build_and_preview:
