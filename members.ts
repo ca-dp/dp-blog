@@ -69,4 +69,16 @@ export const members: Member[] = [
     githubUsername: "nakabonne",
     websiteUrl: "https://nakabonne.dev/",
   },
+  {
+    name: "Khanh Tran",
+    role: "Software Engineer",
+    avatarSrc: "https://avatars1.githubusercontent.com/u/32532742?s=460&u=7079332b64c6b6b920a301209f60ef863bff5434&v=4",
+    sources: [
+      "https://khanhtc.me/index.xml",
+    ],
+    includeUrlRegex: "khanhtc.me",
+    twitterUsername: "khanhtc1202",
+    githubUsername: "khanhtc1202",
+    websiteUrl: "https://khanhtc.me/",
+  },
 ];
