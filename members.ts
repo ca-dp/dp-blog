@@ -7,7 +7,7 @@ export const members: Member[] = [
     bio: "Continuous Delivery for Declarative Kubernetes, Serverless, and Infrastructure Applications",
     avatarSrc: "https://pbs.twimg.com/profile_images/1303695682159611906/WZCNA87N_400x400.jpg",
     sources: [
-      "https://pipecd.dev/blog/index.xml",
+      "https://pipecd.dev/blog/news/index.xml",
     ],
     includeUrlRegex: "pipecd.dev",
     twitterUsername: "pipecd_dev",
