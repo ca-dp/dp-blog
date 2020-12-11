@@ -12,7 +12,7 @@ const Page: NextPage = () => {
           <h1 className="about__title">About</h1>
           <div className="about__body">
             <p>
-              このブログは株式会社サイバーエージェントの Developer Productivity team に 所属するメンバーの投稿を一覧にまとめて表示します。
+              このブログは株式会社サイバーエージェントの Developer Productivity team に 所属するメンバーのブログを一覧にまとめて表示します。
             </p>
           </div>
           <div className="about__actions">
