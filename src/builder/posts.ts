@@ -44,13 +44,14 @@ async function getFeedItemsFromSources(sources: undefined | string[]) {
 }
 
 async function getMemberFeedItems(member: Member): Promise<PostItem[]> {
-  const { sources, name, includeUrlRegex, excludeUrlRegex } = member;
+  const { sources, memberId, name, includeUrlRegex, excludeUrlRegex } = member;
   const feedItems = await getFeedItemsFromSources(sources);
   if (!feedItems) return [];
 
   let postItems = feedItems.map((item) => {
     return {
       ...item,
+      authorId: memberId,
       authorName: name,
     };
   });

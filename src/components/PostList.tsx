@@ -5,7 +5,7 @@ import relativeTime from "dayjs/plugin/relativeTime";
 
 import { PostItem } from "@src/types";
 import {
-  getMemberByName,
+  getMemberByMemberId,
   getHostFromURL,
   getFaviconSrcFromHostname,
   getMemberPath,
@@ -14,15 +14,15 @@ import {
 dayjs.extend(relativeTime);
 
 const PostLink: React.FC<{ item: PostItem }> = (props) => {
-  const { authorName, title, isoDate, link, dateMiliSeconds } = props.item;
-  const member = getMemberByName(authorName);
+  const { authorId, title, isoDate, link, dateMiliSeconds } = props.item;
+  const member = getMemberByMemberId(authorId);
   if (!member) return null;
 
   const hostname = getHostFromURL(link);
 
   return (
     <article className="post-link">
-      <Link href={getMemberPath(member.name)} passHref>
+      <Link href={getMemberPath(member.memberId)} passHref>
         <a className="post-link__author">
           <img
             src={member.avatarSrc}

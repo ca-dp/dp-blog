@@ -2,6 +2,7 @@ import {Member} from "@src/types";
 
 export const members: Member[] = [
   {
+    memberId: "pipecd",
     name: "PipeCD",
     role: "CI/CD",
     bio: "Continuous Delivery for Declarative Kubernetes, Serverless, and Infrastructure Applications",
@@ -15,6 +16,7 @@ export const members: Member[] = [
     websiteUrl: "https://pipecd.dev/",
   },
   {
+    memberId: "stormcat24",
     name: "Akinori Yamada",
     role: "Software Engineer",
     avatarSrc: "https://pbs.twimg.com/profile_images/1112603057471160320/wpikDMXL_400x400.png",
@@ -27,6 +29,7 @@ export const members: Member[] = [
     websiteUrl: "https://scrapbox.io/stormcat24/whois",
   },
   {
+    memberId: "mura_s_",
     name: "Seiya Muramatsu",
     role: "Software Engineer",
     avatarSrc: "https://pbs.twimg.com/profile_images/1082087474300575745/Zyg2G2T7_400x400.jpg",
@@ -38,6 +41,7 @@ export const members: Member[] = [
     githubUsername: "mura-s",
   },
   {
+    memberId: "wasabeef",
     name: "Daichi Furiya",
     role: "Software Engineer",
     avatarSrc: "https://pbs.twimg.com/profile_images/1296438644199190528/JmVL-exv_400x400.jpg",
@@ -50,6 +54,7 @@ export const members: Member[] = [
     websiteUrl: "https://wasabeef.jp"
   },
   {
+    memberId: "nghialv",
     name: "Le Van Nghia",
     role: "Software Engineer",
     avatarSrc: "https://pbs.twimg.com/profile_images/1311655434831372295/TCWCTtSx_400x400.jpg",
@@ -58,6 +63,7 @@ export const members: Member[] = [
     githubUsername: "nghialv",
   },
   {
+    memberId: "nakabonne",
     name: "Ryo Nakao",
     role: "Software Engineer",
     avatarSrc: "https://pbs.twimg.com/profile_images/1326797846725627904/uRG5Wr7T_400x400.jpg",
@@ -70,6 +76,7 @@ export const members: Member[] = [
     websiteUrl: "https://nakabonne.dev/",
   },
   {
+    memberId: "khanhtc1202",
     name: "Khanh Tran",
     role: "Software Engineer",
     avatarSrc: "https://avatars1.githubusercontent.com/u/32532742?s=460&u=7079332b64c6b6b920a301209f60ef863bff5434&v=4",

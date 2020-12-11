@@ -2,11 +2,11 @@ import { PostItem } from "@src/types";
 import { members } from "@members";
 import posts from "@.contents/posts.json";
 
-export function getMemberByName(name: string) {
-  return members.find((member) => member.name === name);
+export function getMemberByMemberId(id: string) {
+  return members.find((member) => member.memberId === id);
 }
-export function getMemberPostsByName(name: string) {
-  return (posts as PostItem[]).filter((item) => item.authorName === name);
+export function getMemberPostsByMemberId(id: string) {
+  return (posts as PostItem[]).filter((item) => item.authorId === id);
 }
 export function getHostFromURL(str: string) {
   const url = new URL(str);
@@ -15,6 +15,6 @@ export function getHostFromURL(str: string) {
 export function getFaviconSrcFromHostname(hostname: string) {
   return `http://www.google.com/s2/favicons?domain=${hostname}`;
 }
-export function getMemberPath(name: string) {
-  return `/members/${encodeURIComponent(name)}`;
+export function getMemberPath(id: string) {
+  return `/members/${encodeURIComponent(id)}`;
 }
