@@ -36,5 +36,8 @@ yarn-error.log*
 # generated data
 /.contents
 
+# Firebase
+.firebase
+
 ## Editors
 .idea/
