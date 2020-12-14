@@ -13,7 +13,7 @@ export function getHostFromURL(str: string) {
   return url?.hostname || "blog";
 }
 export function getFaviconSrcFromHostname(hostname: string) {
-  return `http://www.google.com/s2/favicons?domain=${hostname}`;
+  return `//www.google.com/s2/favicons?domain=${hostname}`;
 }
 export function getMemberPath(id: string) {
   return `/members/${encodeURIComponent(id)}`;
